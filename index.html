@@ -12,10 +12,10 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#acasa" aria-label="Anarchy Barbershop, acasă"><img class="brand-logo" src="https://d3uxkpn8v3i9eu.cloudfront.net/profile-images/large/61dad3e9683645c6301ba3ea.jpg" alt="Logo Anarchy Barbershop"><span>ANARCHY<small>BARBERSHOP</small></span></a>
+    <a class="brand" href="#acasa" aria-label="Anarchy Barbershop, acasă"><img class="brand-logo" src="assets/anarchy-logo.png" alt="Logo Anarchy Barbershop"><span>ANARCHY<small>BARBERSHOP</small></span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="nav">MENIU</button>
     <nav id="nav">
-      <a href="#servicii">Servicii</a><a href="#echipa">Echipa</a><a href="#poveste">Despre noi</a><a href="#contact">Contact</a>
+      <a href="#acasa">Acasă</a><a href="#servicii">Servicii</a><a href="#galerie">Galerie</a><a href="#echipa">Echipa</a><a href="#poveste">Despre noi</a><a href="#contact">Contact</a>
       <a class="nav-cta" href="https://mero.ro/p/anarchy-barbershop" target="_blank" rel="noopener">Programare online</a>
     </nav>
   </header>
@@ -23,14 +23,15 @@
   <main>
     <section class="hero" id="acasa">
       <div class="hero-gallery" aria-label="Galerie foto Anarchy Barbershop">
-        <div class="hero-slide active" style="--slide:url('https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/622b743845bf1800159c942d.jpg')"></div>
-        <div class="hero-slide" style="--slide:url('https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/622b743a45bf1800159c942e.jpg')"></div>
-        <div class="hero-slide" style="--slide:url('https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/6717302fec8dc10013a3e7ad.jpg')"></div>
-        <div class="hero-slide" style="--slide:url('https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/67173035ec8dc10013a3e7af.jpg')"></div>
+        <div class="hero-slide hero-slide-team active" style="--slide:url('assets/hero-team-enhanced.png');--position:center 42%"></div>
+        <div class="hero-slide" style="--slide:url('assets/hero-barber-enhanced.png');--position:center 38%"></div>
+        <div class="hero-slide" style="--slide:url('assets/hero-haircut-2-enhanced.png')"></div>
+        <div class="hero-slide" style="--slide:url('assets/hero-haircut-3-enhanced.png')"></div>
+        <div class="hero-slide" style="--slide:url('assets/hero-haircut-4-enhanced.png')"></div>
       </div><div class="hero-grain"></div>
       <div class="hero-copy reveal">
         <div class="hero-kicker"><span>BARBERSHOP · GALAȚI</span><span class="hero-status"><i></i> PROGRAMĂRI ONLINE</span></div>
-        <h1>Stilul tau.<br><em>Semnatura noastra.</em></h1>
+        <h1><span class="hero-title-main">Stilul tau.</span><br><em>Semnatura noastra.</em></h1>
         <p class="lead">Tunsori moderne și servicii pentru barbă, realizate de o echipă atentă la detalii. Simplu, relaxat și exact cum îți dorești.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="https://mero.ro/p/anarchy-barbershop" target="_blank" rel="noopener">Programează-te online <span>↗</span></a>
@@ -39,7 +40,7 @@
         <div class="hero-proof"><div class="proof-score"><strong>4,97</strong><span>★★★★★</span></div><p><b>5.528 de evaluări</b><br>de la clienții noștri pe MERO</p></div>
       </div>
       <aside class="hero-card"><span>NE GĂSEȘTI AICI</span><strong>Strada Brăilei 258</strong><p>Galați · Marți–Sâmbătă</p><a href="https://www.google.com/maps/dir/?api=1&destination=45.4143118,28.0066753" target="_blank" rel="noopener">Vezi traseul ↗</a></aside>
-      <div class="gallery-controls" aria-label="Comenzi galerie"><button class="gallery-prev" type="button" aria-label="Fotografia precedentă">←</button><span class="gallery-count"><b>01</b> / 04</span><button class="gallery-next" type="button" aria-label="Fotografia următoare">→</button></div>
+      <div class="gallery-controls" aria-label="Comenzi galerie"><button class="gallery-prev" type="button" aria-label="Fotografia precedentă">←</button><span class="gallery-count"><b>01</b> / 05</span><button class="gallery-next" type="button" aria-label="Fotografia următoare">→</button></div>
       <div class="hero-scroll"><span></span> DESCOPERĂ</div>
     </section>
 
@@ -54,30 +55,44 @@
       </div>
     </section>
 
+    <section class="cinematic-gallery" id="galerie" aria-labelledby="gallery-title">
+      <div class="cinematic-heading"><div><p class="eyebrow"><span>02</span> / DIN SALON</p><h2 id="gallery-title">CRAFT.<br><em>IN MOTION.</em></h2></div><p>Fiecare detaliu contează. Fiecare linie spune ceva despre tine.</p></div>
+      <div class="masonry masonry-desktop">
+        <div class="masonry-column" data-speed="-34"><figure class="motion-card portrait"><div><img src="assets/gallery/anarchy-01.webp" alt="Tunsoare skin fade realizată la Anarchy Barbershop" loading="lazy" decoding="async"><span>01</span></div></figure><figure class="motion-card portrait"><div><img src="assets/gallery/anarchy-04.webp" alt="Tunsoare texturată cu fade precis" loading="lazy" decoding="async"><span>04</span></div></figure><figure class="motion-card wide"><div><img src="assets/gallery/anarchy-07.webp" alt="Echipa Anarchy în fața barbershopului" loading="lazy" decoding="async"><span>07</span></div></figure></div>
+        <div class="masonry-column" data-speed="24"><figure class="motion-card tall"><div><img src="assets/gallery/anarchy-02.webp" alt="Echipa Anarchy Barbershop în salon" loading="lazy" decoding="async"><span>02</span></div></figure><figure class="motion-card tall"><div><img src="assets/gallery/anarchy-05.webp" alt="Portret cu tunsoare blondă și contur geometric" loading="lazy" decoding="async"><span>05</span></div></figure><figure class="motion-card wide"><div><img src="assets/gallery/anarchy-08.webp" alt="Moment de lucru în Anarchy Barbershop" loading="lazy" decoding="async"><span>08</span></div></figure></div>
+        <div class="masonry-column" data-speed="-18"><figure class="motion-card wide"><div><img src="assets/gallery/anarchy-03.webp" alt="Barber Anarchy lucrând la o tunsoare" loading="lazy" decoding="async"><span>03</span></div></figure><figure class="motion-card portrait"><div><img src="assets/gallery/anarchy-06.webp" alt="Fade și barbă conturate la Anarchy Barbershop" loading="lazy" decoding="async"><span>06</span></div></figure><figure class="motion-card portrait"><div><img src="assets/gallery/anarchy-09.webp" alt="Identitatea Anarchy și o tunsoare realizată în salon" loading="lazy" decoding="async"><span>09</span></div></figure></div>
+      </div>
+      <div class="masonry masonry-mobile" aria-hidden="true">
+        <div class="masonry-column" data-speed="-20"><figure class="motion-card portrait"><div><img src="assets/gallery/anarchy-01.webp" alt="" loading="lazy" decoding="async"><span>01</span></div></figure><figure class="motion-card wide"><div><img src="assets/gallery/anarchy-03.webp" alt="" loading="lazy" decoding="async"><span>03</span></div></figure><figure class="motion-card tall"><div><img src="assets/gallery/anarchy-05.webp" alt="" loading="lazy" decoding="async"><span>05</span></div></figure><figure class="motion-card wide"><div><img src="assets/gallery/anarchy-07.webp" alt="" loading="lazy" decoding="async"><span>07</span></div></figure><figure class="motion-card portrait"><div><img src="assets/gallery/anarchy-09.webp" alt="" loading="lazy" decoding="async"><span>09</span></div></figure></div>
+        <div class="masonry-column" data-speed="16"><figure class="motion-card tall"><div><img src="assets/gallery/anarchy-02.webp" alt="" loading="lazy" decoding="async"><span>02</span></div></figure><figure class="motion-card portrait"><div><img src="assets/gallery/anarchy-04.webp" alt="" loading="lazy" decoding="async"><span>04</span></div></figure><figure class="motion-card portrait"><div><img src="assets/gallery/anarchy-06.webp" alt="" loading="lazy" decoding="async"><span>06</span></div></figure><figure class="motion-card wide"><div><img src="assets/gallery/anarchy-08.webp" alt="" loading="lazy" decoding="async"><span>08</span></div></figure></div>
+      </div>
+      <div class="gallery-footer"><span>ANARCHY · MADE BY HAND</span><a href="https://mero.ro/p/anarchy-barbershop" target="_blank" rel="noopener">REZERVĂ EXPERIENȚA ↗</a></div>
+    </section>
+
     <section class="manifesto" id="poveste">
       <div class="manifesto-image reveal"><span>FROM NOTHING<br>TO SOMETHING</span></div>
-      <div class="manifesto-copy reveal"><p class="eyebrow">02 / DESPRE NOI</p><h2>Un loc construit<br>din pasiune.</h2><p>Anarchy Barbershop a pornit de la o idee simplă: fiecare client merită o tunsoare executată cu răbdare și atenție. Astăzi suntem o echipă de barberi cu stiluri diferite, uniți de aceeași grijă pentru rezultat și pentru experiența din scaun.</p><div class="stats"><div><strong>5.500+</strong><span>EVALUĂRI</span></div><div><strong>4,97</strong><span>RATING MEDIU</span></div><div><strong>4</strong><span>BARBERI</span></div></div></div>
+      <div class="manifesto-copy reveal"><p class="eyebrow">03 / DESPRE NOI</p><h2>Un loc construit<br>din pasiune.</h2><p>Anarchy Barbershop a pornit de la o idee simplă: fiecare client merită o tunsoare executată cu răbdare și atenție. Astăzi suntem o echipă de barberi cu stiluri diferite, uniți de aceeași grijă pentru rezultat și pentru experiența din scaun.</p><div class="stats"><div><strong>5.500+</strong><span>EVALUĂRI</span></div><div><strong>4,97</strong><span>RATING MEDIU</span></div><div><strong>4</strong><span>BARBERI</span></div></div></div>
     </section>
 
     <section class="section team" id="echipa">
-      <div class="section-heading reveal"><p class="eyebrow">03 / ECHIPA</p><h2>Cunoaște<br>echipa.</h2><p>Fiecare barber are propria tehnică și propriul stil. Alege persoana cu care vrei să te programezi direct în MERO.</p></div>
+      <div class="section-heading reveal"><p class="eyebrow">04 / ECHIPA</p><h2>Cunoaște<br>echipa.</h2><p>Fiecare barber are propria tehnică și propriul stil. Alege persoana cu care vrei să te programezi direct în MERO.</p></div>
       <div class="team-grid">
-        <article class="reveal"><img src="https://d3uxkpn8v3i9eu.cloudfront.net/profile-images/large/65ea41f15450940013959ed1.jpg" alt="Ștefan Zaharia" loading="lazy" decoding="async"><div><h3>Ștefan Zaharia</h3><p>MASTER BARBER · 4,98 ★</p></div></article>
-        <article class="reveal"><img src="https://d3uxkpn8v3i9eu.cloudfront.net/profile-images/large/6761249c5307a90012192d25.jpg" alt="GEAX" loading="lazy" decoding="async"><div><h3>GEAX</h3><p>MASTER BARBER · 4,98 ★</p></div></article>
-        <article class="reveal"><img src="https://d3uxkpn8v3i9eu.cloudfront.net/profile-images/large/6a46c3c02dd0dc2a6f6d4a2e.jpg" alt="Andreea Popovici" loading="lazy" decoding="async"><div><h3>Andreea Popovici</h3><p>MASTER BARBER · 4,95 ★</p></div></article>
-        <article class="reveal"><img src="https://d3uxkpn8v3i9eu.cloudfront.net/profile-images/large/6982fdc3e62824b75c86130a.jpg" alt="Alexandru Ignat" loading="lazy" decoding="async"><div><h3>Alexandru Ignat</h3><p>MASTER BARBER · 4,98 ★</p></div></article>
+        <article class="reveal"><img src="assets/team-stefan-enhanced.png" alt="Ștefan Zaharia" loading="lazy" decoding="async"><div><h3>Ștefan Zaharia</h3><p>MASTER BARBER · 4,98 ★</p></div></article>
+        <article class="reveal"><img src="assets/team-geax-enhanced.png" alt="GEAX" loading="lazy" decoding="async"><div><h3>GEAX</h3><p>MASTER BARBER · 4,98 ★</p></div></article>
+        <article class="reveal"><img src="assets/team-andreea-enhanced.png" alt="Andreea Popovici" loading="lazy" decoding="async"><div><h3>Andreea Popovici</h3><p>MASTER BARBER · 4,95 ★</p></div></article>
+        <article class="reveal"><img src="assets/team-alexandru-enhanced.png" alt="Alexandru Ignat" loading="lazy" decoding="async"><div><h3>Alexandru Ignat</h3><p>MASTER BARBER · 4,98 ★</p></div></article>
       </div>
     </section>
 
     <section class="reviews"><div class="review-mark">“</div><div class="review-copy reveal"><p>Rapid, precis și profesionist. Te așezi pe scaun, îi spui cum vrei și pleci tuns impecabil.</p><span>— DORU S. · RECENZIE VERIFICATĂ · 5/5</span></div><div class="review-score"><strong>4,97</strong><span>DIN 5 · 5.528 EVALUĂRI</span></div></section>
 
     <section class="contact" id="contact">
-      <div class="contact-main reveal"><p class="eyebrow">04 / CONTACT</p><h2>Ne vedem<br>la următoarea tunsoare?</h2><a class="button button-primary" href="https://mero.ro/p/anarchy-barbershop" target="_blank" rel="noopener">Alege serviciul și ora ↗</a></div>
+      <div class="contact-main reveal"><p class="eyebrow">05 / CONTACT</p><h2>Ne vedem<br>la următoarea tunsoare?</h2><a class="button button-primary" href="https://mero.ro/p/anarchy-barbershop" target="_blank" rel="noopener">Alege serviciul și ora ↗</a></div>
       <div class="contact-details reveal"><div><span>ADRESĂ</span><p>Strada Brăilei 258<br>Galați, România</p><a href="https://www.google.com/maps/dir/?api=1&destination=45.4143118,28.0066753" target="_blank" rel="noopener">Vezi traseul în Google Maps ↗</a></div><div><span>PROGRAM</span><p>Marți–Miercuri · 10:00–18:00<br>Joi–Sâmbătă · 10:00–20:00<br>Duminică–Luni · Închis</p><small>Programul include o pauză între 13:00 și 14:00.</small></div></div>
     </section>
   </main>
 
-  <footer><div class="brand footer-brand"><img class="brand-logo" src="https://d3uxkpn8v3i9eu.cloudfront.net/profile-images/large/61dad3e9683645c6301ba3ea.jpg" alt="Logo Anarchy Barbershop"><span>ANARCHY<small>BARBERSHOP</small></span></div><p>FROM NOTHING TO SOMETHING.</p><p>© 2026 ANARCHY BARBERSHOP</p></footer>
+  <footer><div class="brand footer-brand"><img class="brand-logo" src="assets/anarchy-logo.png" alt="Logo Anarchy Barbershop"><span>ANARCHY<small>BARBERSHOP</small></span></div><p>FROM NOTHING TO SOMETHING.</p><p>© 2026 ANARCHY BARBERSHOP</p></footer>
   <a class="mobile-book" href="https://mero.ro/p/anarchy-barbershop" target="_blank" rel="noopener">FĂ O PROGRAMARE ↗</a>
   <script src="script.js"></script>
 </body>
