@@ -52,3 +52,5 @@
 .manifesto-image{background-image:linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.5)),url('assets/manifesto-enhanced.png')}
 
 
+
+@media(max-width:850px){.hero-copy>.gallery-controls{position:relative;top:auto;right:auto;width:max-content;margin:-10px 0 22px;background:transparent;backdrop-filter:none}}
